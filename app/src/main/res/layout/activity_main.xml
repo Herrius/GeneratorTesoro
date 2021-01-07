@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/ORecompensa"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/lstRecompensa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:dropDownWidth="match_parent"
+        android:background="@drawable/spinner_personalizado"
+        android:entries="@array/ARecompensa"
+        android:padding="4dp"
+        android:textSize="18sp"
+        ></Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/ONivelG"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/lstNivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/spinner_personalizado"
+        android:entries="@array/nivel"
+        android:spinnerMode="dropdown"
+        android:textSize="18sp"
+        android:padding="4dp"
+        ></Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/tesoro"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp">
+
+        <ImageButton
+            android:id="@+id/chucherias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:src="@drawable/cristal"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/diamante"
+            ></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ObjMagico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:src="@drawable/mago"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/objetos_magicos"
+            ></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Armas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:src="@drawable/espadas"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/espadas"
+            ></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Dinero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blanco"
+            android:src="@drawable/anillos"
+            android:contentDescription="@string/anillos"
+            ></ImageButton>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageButton
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tirar"
+        android:background="@color/blanco"
+        android:layout_gravity="center"
+        android:contentDescription="@string/boton_para_tirar_dado"></ImageButton>
+
+</LinearLayout>

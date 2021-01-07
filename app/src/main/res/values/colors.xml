@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Fondo_Alternativo">#F2F2F2</color>
+    <color name="Fondo_Secundario">#F23041</color>
+    <color name="Negro">#131212</color>
+    <color name="Principal">#D90416</color>
+    <color name="Secundario">#F25C78</color>
+    <color name="Secundario_alt">#F25C78</color>
+    <color name="Texto_secundario">#666666</color>
+    <color name="Texto">#433D33</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="botones">#F28891</color>
+</resources>

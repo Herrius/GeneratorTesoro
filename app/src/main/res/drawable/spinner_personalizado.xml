@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    creacion del contenedor-->
+    <item>
+        <layer-list>
+<!--            figura del contenedor-->
+            <item>
+                <shape android:shape="rectangle">
+                    <size
+                        android:width="100dp"></size>
+                    <padding android:left="4dp"
+                        android:top="4dp"
+                        android:right="4dp"
+                        android:bottom="4dp"
+                        />
+                    <solid android:color="@color/blanco"></solid>
+                    <corners android:radius="5dp">
+                    </corners>
+                    <stroke
+                        android:color="#F28891"
+                        android:width="2dp"></stroke>
+                </shape>
+            </item>
+<!--            la forma del contenedor-->
+            <item>
+                <bitmap android:gravity="center|right" android:src="@drawable/dropdown" />
+            </item>
+        </layer-list>
+    </item>
+</selector>

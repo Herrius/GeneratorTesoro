@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GeneratorTesoro</string>
+    <string name="title">GENERADOR DE TESOROS</string>
+    <string name="ORecompensa">Tipo de recompensa</string>
+    <string-array name="ARecompensa">
+        <item>Grupal</item>
+        <item>Individual</item>
+    </string-array>
+    <string name="ONivelG">Nivel del party</string>
+    <string name="ONivelI">Nivel del personaje</string>
+    <string-array name="nivel">
+        <item>0-4</item>
+        <item>5-10</item>
+        <item>11-16</item>
+        <item>17+</item>
+    </string-array>
+    <string name="tesoro">¿Qué encontraran?</string>
+    <string name="diamante">Diamante</string>
+    <string name="objetos_magicos">Objetos magicos</string>
+    <string name="espadas">Espadas</string>
+    <string name="anillos">Anillos</string>
+    <string name="logo">Logo</string>
+    <string name="boton_para_tirar_dado">boton para tirar dado</string>
+</resources>
